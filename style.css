@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+#form-login{
+    height: 60vh;
+    width: 30vw;
+    background-color: white;
+}
+#form-title{
+    text-align: center;
+    margin-top: 2vh;
+}
+#form-title h1{
+    margin-bottom: 2vh;
+    color: #A60F09;
+    font-size: 36px;
+}
+#form-title p{
+    font-size: 16px;
+    color: rgb(85,84,84);
+}
+#form-inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+#form-inputs input{
+    height: 6vh;
+    width: 80%;
+    outline: none;
+    border: 1px solid rgb(180,,176,176);
+    padding-left: 10px; /* texto dentro da box */
+
+}
+#esqueci-senha{
+    justify-content: space-around;
+    align-items: center;
+}
+#conectado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* #conectado input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+} */
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F0EEED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
