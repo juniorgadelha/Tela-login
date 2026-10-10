@@ -33,13 +33,14 @@
     height: 6vh;
     width: 80%;
     outline: none;
-    border: 1px solid rgb(180,,176,176);
+    border: 1px solid rgb(180,176,176);
     padding-left: 10px; /* texto dentro da box */
 
 }
 #esqueci-senha{
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 #conectado{
     display: flex;
