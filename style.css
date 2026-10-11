@@ -8,6 +8,7 @@
     height: 60vh;
     width: 30vw;
     background-color: white;
+    border-radius: 10%;
 }
 #form-title{
     text-align: center;
@@ -38,6 +39,7 @@
 
 }
 #esqueci-senha{
+    display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -47,14 +49,42 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
+    margin-left: 1vw;
 }
-
-/* #conectado input{
+#conectado input{
+    width: 15px;
+}
+#conectado p {
+    color: rgb(180, 176, 176);
+}
+#esqueci-senha a {
+    color: #A60F09;
+    font-size: 14px;
+    text-decoration: none;
+}
+#form-inputs button {
+    width: 80%;
+    height: 6vh;
+    background-color: #A60F09;
+    color: white;
+}
+#texts{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-} */
+    flex-direction: column;
+    margin-top: 2vh;
+}
+
+#texts p{
+    font-size: 14px;
+    color: rgb(131, 129, 129);
+    margin-bottom: 2vh;
+}
+#texts a {
+    color: #A60F09;
+    text-decoration: none;
+}
 body{
     width: 100vw;
     height: 100vh;
